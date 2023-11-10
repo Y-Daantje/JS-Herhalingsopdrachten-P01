@@ -75,7 +75,26 @@ if (coin == "BTC") {
 //opdr 6
 let i = 0;
 
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < 10; i++) {
     console.log(i);
-    
+    if (i === 9) {
+        console.log('Einde program');
+    }
+};
+
+
+//opdr7
+let x = 0;
+let zin1 = 'hey'
+let zin2 = 'hoi'
+
+while (x <= 20) {
+    console.log("Zin 1");
+
+    x++;
+
+    if (x > 9) {
+        continue;
+    }
+    console.log("Zin 2");
 }
